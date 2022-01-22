@@ -8,6 +8,6 @@ class TestController extends Controller
 {
     function hello1()
     {
-        return ['hello' => 'world'];
+        return ['hello' => 'world 1'];
     }
 }
