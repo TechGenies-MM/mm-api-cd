@@ -6,7 +6,7 @@ require 'recipe/laravel.php';
 
 set('application', 'api-cd');
 set('repository', 'git@github.com:TechGenies-MM/mm-api-cd.git');
-set('git_tty', true);
+// set('git_tty', true);
 add('shared_files', []);
 
 task('build', function () {
