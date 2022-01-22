@@ -2,7 +2,7 @@ name: Deploy
 on:
   push:
     branches:
-      - "dev"
+      - "main"
 
 concurrency: production_environment
 
